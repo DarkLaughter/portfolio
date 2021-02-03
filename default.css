@@ -11,6 +11,7 @@
 
     --legendColor:rgb(251, 249, 243, 0.8);
     --buttonColor:black;
+    --iconColor: #0c76cd;
 }
 
 html, body{
@@ -43,6 +44,16 @@ h3{font-size: 28px;}
 h4{font-size: 24px;}
 h5{font-size: 20px;}
 h6{font-size: 16px;}
+
+i.fas{
+    font-size: 1em;
+    color: var(--iconColor);
+}
+
+.icons-text{
+    font-size: 16px;
+
+}
 
 .s1{
     background-color: var(--mainColor);
