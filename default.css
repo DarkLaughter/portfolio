@@ -5,7 +5,7 @@
     --borderColor:#c1c1c1;
 
     --mainText: black;
-    --secondaryText: #b8c9d7;
+    --secondaryText: #7f8991;
 
     --themeBorder: #24292e;
 
@@ -74,7 +74,7 @@ h6{font-size: 16px;}
     background-color: var(--secondaryColor);
     border: 1px solid var(--borderColor);
     border-radius: 5px 5px 0 0;
-    margin: 20px;
+    margin: 20px 20px 100px 20px;
 
 	-webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
 	-moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
@@ -236,7 +236,14 @@ h6{font-size: 16px;}
 .social{
     display: grid;
     text-align: center;
+    -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+    box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+
+    border: 10px double var(--themeBorder);
+    
 }
+
 
 #social-img{
     height: 200px;
