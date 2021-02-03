@@ -5,11 +5,12 @@
     --borderColor:#c1c1c1;
 
     --mainText: black;
-    --secondaryText: #4b5156;
+    --secondaryText: #b8c9d7;
 
     --themeBorder: #24292e;
 
     --legendColor:rgb(251, 249, 243, 0.8);
+    --buttonColor:black;
 }
 
 html, body{
@@ -179,6 +180,7 @@ h6{font-size: 16px;}
 
 .theme-icon:hover{
     border-width: 3px;
+    border-color: #04a7ff;
 }
 .theme-icon p{
     margin-top: 10px;
@@ -191,7 +193,7 @@ h6{font-size: 16px;}
 }
 
 #dark-mode{
-    background-color: #7e4c74;
+    background-color: 192734;
 }
 
 #personal-note{
@@ -246,6 +248,8 @@ h6{font-size: 16px;}
     grid-template-columns: repeat(auto-fit, 300px);
     gap: 20px;
     justify-content: center;
+    padding-bottom: 50px;
+    font-size: 14px;
 }
 
 .post{
@@ -265,6 +269,58 @@ h6{font-size: 16px;}
 .post-preview{
     background-color: #fff;
     padding: 15px;
+}
+
+.post-title{
+    color: black;
+    margin: 0;
+}
+
+.post-intro{
+    color: #4b5156;
+    font-size: 16px;
+}
+
+#contact-form{
+	display: block;
+	max-width: 600px;
+	margin: 0 auto;
+	border: 1px solid var(--borderColor);
+	padding: 15px;
+	border-radius: 5px;
+	background-color: var(--mainColor);
+	margin-bottom: 50px;
+
+}
+
+#contact-form label{
+	line-height: 2.7em;
+}
+
+#contact-form textarea{
+	min-height: 100px;
+	font-size: 14px;
+}
+
+
+.input-field{
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom:10px; 
+	background-color: var(--secondaryColor);
+	border-radius: 5px;
+	border:1px solid var(--borderColor);
+	font-size: 14px;
+}
+
+#submit-btn{
+	margin-top: 10px;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom:10px; 
+	color: #fff;
+	background-color: var(--buttonColor);
+	border:none;
 }
 
 @media screen and (max-width: 1200px){
