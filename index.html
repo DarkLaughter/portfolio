@@ -12,6 +12,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap" rel="stylesheet">
         <!-- Themes and CSS -->
         <link rel="stylesheet" type="text/css" href="default.css">
+        <link id="theme-style" rel="stylesheet" type="text/css" href="">
         <!-- font awesome kit -->
         <script src="https://kit.fontawesome.com/6db27f8cbc.js" crossorigin="anonymous"></script>
     
@@ -32,8 +33,8 @@
                         </div>
 
                         <div id="theme-wrapper">
-                            <div id="light-mode" class="theme-icon"><p style="text-align: center;">Go Light</p></div>
-                            <div id="dark-mode" class="theme-icon"><p style="text-align: center;">Go Dark</p></div>
+                            <div data-mode="light" id="light-mode" class="theme-icon"><p style="text-align: center;">Go Light</p></div>
+                            <div data-mode="dark" id="dark-mode" class="theme-icon"><p style="text-align: center;">Go Dark</p></div>
                     </div>
 
                         <ul id="navigation">
@@ -207,6 +208,6 @@
 
             </div>
         </section>
-
+        <script type="text/javascript" src="script.js"></script>
     </body>
 </html>
