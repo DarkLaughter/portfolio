@@ -37,7 +37,7 @@ a{
 }
 
 a:hover {
-    background-color: gold;
+    color: var(--mainText); 
 }
 
 ul{
@@ -254,20 +254,26 @@ i.fab{
 
 .social{
     display: grid;
-    text-align: center;
+    justify-items: center;
     -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
 	-moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
     box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
-
     border: 10px double var(--themeBorder);
     
+}
+
+.social a{
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.find-links :hover{
+    color: var(--mainText);
 }
 
 .social p {
     font-size: 20px;
     text-align: center;
-    margin: 0;
-    padding: 10px;
 }
 
 #social-img{
