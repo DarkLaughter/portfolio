@@ -1,5 +1,5 @@
 :root{
-    --mainColor:#eaeaea;
+    --mainColor:#cfd5d5;
     --secondaryColor:#fff;
 
     --borderColor:#c1c1c1;
@@ -9,7 +9,7 @@
 
     --themeBorder: #24292e;
 
-    --legendColor:rgb(251, 249, 243, 0.8);
+    --legendColor:rgba(249, 243, 225, 0.8);
     --buttonColor:black;
 
     --linkColor: #17a2b8;
@@ -53,7 +53,7 @@ h6{font-size: 16px;}
 
 i.fas,
 i.fab{
-    font-size: 1em;
+    font-size: 1.5em;
     color: var(--iconColor);
 }
 
@@ -111,7 +111,6 @@ i.fab{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: var(--mainColor);
 }
 
 #navigation{
@@ -165,6 +164,7 @@ i.fab{
     grid-area: left-column;
     padding-top: 50px;
     padding-bottom: 50px;
+
 }
 
 #profile-pic{
@@ -207,16 +207,15 @@ i.fab{
 
 
 #light-mode{
-    background-color: #fff;
+    background-color: rgba(230, 230, 230, 0.6);
 }
 
 #dark-mode{
-    background-color: 192734;
+    background-color: #192734;
 }
 
 #personal-note{
-    font-size: 12px;
-    font-style: italic;
+    font-size: 16px;
     text-align: center;
 }
 
@@ -230,16 +229,17 @@ i.fab{
     display: block;
     margin: 0 auto;
     width: 300px;
+    height: 90%;
     border: 1.5px solid #17a2b8;
     background-color: var(--legendColor);
     padding: 15px;
-    font-size: 12px;
+    font-size: 16px;
     text-align: center;
 }
 
 .about-wrapper{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
     padding-bottom: 50px;
     padding-top: 50px;
     gap: 100px;
@@ -249,6 +249,7 @@ i.fab{
     display: flex;
     justify-content: space-around;
     background-color: var(--legendColor);
+
 }
 
 .social{
