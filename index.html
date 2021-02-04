@@ -103,14 +103,29 @@
                     <div class="social">
                         <img id="social-img" src="images/social-media.png" alt="">
                         <h3>Where To Find Me</h3>
-                        <p> Github                           
-                            <a href="">Github</a>
+                        <p> Github <i class="fab fa-github-square"></i>                           
+                            <a 
+                            href="https://github.com/darklaughter"
+                            target="_blank"
+                            >
+                            DarkLaughter
+                            </a>
                         </p>
-                        <p> LinkedIn
-                            <a href="">LinkedIn</a>
+                        <p> LinkedIn <i class="fab fa-linkedin"></i>
+                            <a 
+                            href="https://www.linkedin.com/in/ramon-echeverria/"
+                            target="_blank"
+                            > 
+                            ramon-echeverria
+                            </a>
                         </p>
-                        <p>Medium
-                            <a href="">Medium</a>
+                        <p>Medium <i class="fab fa-medium"></i>
+                            <a 
+                            href="https://ramon-l-echeverria.medium.com/"
+                            target="_blank"
+                            >
+                            Ramon Echeverria
+                            </a>
                         </p>
                     </div>
                 </div>
@@ -127,7 +142,7 @@
                         <div class="post">
 
                             <iframe src="https://player.vimeo.com/video/444917301" class="post-img" 
-                            frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                            frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe>
                             <div class="post-preview">
                                 <h6 class="post-title">Project Name</h6>
                                 <p class="post-intro">
@@ -187,23 +202,20 @@
             <div class="main-container">
                 <h3 style="text-align: center;">Get In Touch</h3>
 
-                <form id="contact-form" action="">
-                    <a name="contact"></a>
-
-                    <label>Name</label>
+                <form id="contact-form" name="contact" method="POST" data-netlify="true">
+                    <label class="contact-label">Name</label>
                     <input class="input-field" type="text" name="name">
     
-                    <label>Subject</label>
+                    <label class="contact-label">Subject</label>
                     <input class="input-field" type="text" name="subject">
     
-                    <label>Email</label>
+                    <label class="contact-label" >Email</label>
                     <input class="input-field" type="text" name="email">
     
-                    <label>Message</label>
+                    <label class="contact-label" >Message</label>
                     <textarea class="input-field" name="message"></textarea>
 
                     <input id="submit-btn" type="submit" value="Send">
-
                 </form>
 
             </div>
