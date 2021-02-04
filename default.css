@@ -53,7 +53,7 @@ h6{font-size: 16px;}
 
 i.fas,
 i.fab{
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: var(--iconColor);
 }
 
@@ -271,13 +271,17 @@ i.fab{
     color: var(--mainText);
 }
 
+.project-links :hover{
+    color: var(--linkColor);
+}
+
 .social p {
     font-size: 20px;
     text-align: center;
 }
 
 #social-img{
-    height: 200px;
+    height: 300px;
     width: 100%;
 }
 
